@@ -10,3 +10,7 @@
 	height: 200px;
 	background-color: yellow;
 }
+
+img {
+	max-width: 100%;
+}
