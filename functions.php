@@ -20,6 +20,14 @@
 			'before_title' => '<h1>',
 			'after_title' => '</h1>'
 			));
+
+		register_sidebar(array(
+			'name' => __( 'frontpage_banner' ),
+			'id' => 'frontpage_banner',
+			'description' => __( 'Banner til frontpage' ),
+			'before_title' => '<h1>',
+			'after_title' => '</h1>'
+			));
 	}
 
 /* thumbnails */
