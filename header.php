@@ -34,22 +34,25 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header>
-		<div class="row-max header hide-tablet">
-			<div class="grid_2">logo</div>
-			<nav class="grid_9"><?php wp_nav_menu(); ?></nav>
-			<div class="grid_1">social media</div>
-			<div class="clear"></div>
-		</div>
 		
-		<div class="row-max show-tablet">
-			<div class="grid_12">logo</div>
-		</div>
 
-		<div class="row-max header show-tablet">
-			
-			<nav class="grid_11"><?php wp_nav_menu(); ?></nav>
-			<div class="grid_1">social media</div>
-			<div class="clear"></div>
-		</div>
-	</header>
+
+	<div class="row-max header show-screen">
+		<div class="grid_2 site-logo">logo</div>
+		<nav class="grid_9"><?php wp_nav_menu(); ?></nav>
+		<div class="grid_1">social media</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div class="row hide-screen txt-center">
+		<div class="grid_12">logo</div>
+	</div>
+
+	<div class="row-max header hide-screen">
+		<nav class="grid_12_center"><?php wp_nav_menu();?></nav>
+		<div class="clear"></div>
+	</div>
+
+	<div class="row hide-screen txt-right">
+		<div class="grid_12">social media</div>
+	</div>

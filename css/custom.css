@@ -53,16 +53,29 @@ h2 {
 }
 
 
+	/*****************************************/
+	/*                 Logo                  */
+	/*****************************************/
+
+	.site-logo{
+	/**/
+	}
+
+	.site-logo-mobile{
+		margin-bottom: 2em;
+	/**/
+	}
+
 
 	/*****************************************/
 	/*                Menubar                */
 	/*****************************************/
-	
+
 	.menu {
 		list-style-type: none;
 		display: block;
 		margin: 0; /*Correction of ul, ol {margin: 26px 0 36px 0;} in base.css from amazium */
-		text-align: right;
+		text-align: center;
 		font-size: 0; /*Removes space inserted by inline-block*/
 	}
 
@@ -89,6 +102,10 @@ h2 {
 
 	.menu-item a:hover{
 		background-color: #104f30;
+	}
+
+	.grid_12_center {
+		margin: 0 auto;
 	}
 
 /*****************************************/
