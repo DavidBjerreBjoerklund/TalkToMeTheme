@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 /*****************************************/
 /* Making background colors match mockup */
 /*****************************************/
@@ -16,15 +18,18 @@ footer {
 
 
 /*****************************************/
-/*                 Fonts                 */
+/*                 Text                  */
 /*****************************************/
 
 * {
 	color: #f5f5f5;
-	
-
-
 }
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: #f5f5f5;
+}
+
 
 /*****************************************/
 /*                Menubar                */

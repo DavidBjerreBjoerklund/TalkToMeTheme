@@ -7,7 +7,7 @@
 </div>
 
 <div class="row">
-	<div class="grid_12">
+	<div class="grid_12 maincontentarea">
 		<div class="row">
 			<div class="grid_8" >
 				<div class="row">
@@ -21,7 +21,7 @@
 							} ?>
 
 
-							<h1> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1>
+							<h2> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h2>
 
 							<p><?php the_content(); ?></p>
 							<hr>
