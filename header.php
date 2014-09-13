@@ -35,7 +35,7 @@
 </head>
 <body>
 
-	<header class="row-max header">
+	<header class="row header">
 		<div class="grid_2">logo</div>
 		<nav class="grid_9"><?php wp_nav_menu(); ?></nav>
 		<div class="grid_1">social media</div>
