@@ -12,7 +12,8 @@
 			<div class="grid_8" >
 				<div class="row">
 					<div class="grid_8">
-						<h1>Main-content omraade</h1>
+						<h1>Hvad sker der lige nu?</h1>
+						<hr>
 					</div>
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<section class="grid_4">
