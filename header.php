@@ -55,7 +55,7 @@
 		<div class="grid_12">
 			<div class="site-logo-mobile">
 
-				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo_optimized.svg" alt="">
+				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="">
 			</div>
 		</div>
 	</div>

@@ -3,3 +3,7 @@ In header.php:
 	Make logo a link to the frontpage. Add descriptive text and add font-size = 0.
 
 	Make logo in webfriendly svg format.
+
+	Add alt-text to logo
+
+	Add social media icons and activate them as links
