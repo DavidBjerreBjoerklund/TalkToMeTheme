@@ -7,9 +7,9 @@ Template Name: Page iframe
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<div class="row">
-	<section class="grid_12">
-		<?php 
+		<section class="grid_12">
 
+			<?php 
 			$image = get_field('banner_img');
 
 			if( !empty($image) ): ?>
@@ -18,16 +18,17 @@ Template Name: Page iframe
 			<?php endif; ?>	
 
 
-		<h1> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1>
+			<h1> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1>
 
-		<p><?php the_content(); ?></p>
+			<p><?php the_content(); ?></p>
+		</section>
+	</div>
 
-		<iframe class="iframe_page grid_12" src="<?php echo(the_field('iframe'));?>">
-
-		</iframe>
-		<hr>
-	</section>
-	</div>	
+	<div class="row">
+		<iframe class="iframe_page grid_12" src="<?php echo(the_field('iframe'));?>"></iframe>
+		<hr class="grid_12">
+	</div>
+	
 <?php endwhile; ?>
 <?php else: ?>
 	<p><?php echo 'Beklager, ingen sider matcher dine kriterier.'; ?></p>
