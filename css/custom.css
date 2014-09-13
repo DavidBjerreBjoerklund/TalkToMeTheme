@@ -1,3 +1,47 @@
+/*****************************************/
+/* Making background colors match mockup */
+/*****************************************/
+
+body {
+	background-color: #1f262f;
+}
+
+footer {
+	background-color: #1b2028;
+}
+
+.maincontentarea {
+	background-color: #222b35;
+}
+
+
+/*****************************************/
+/*                 Fonts                 */
+/*****************************************/
+
+* {
+	color: #f5f5f5;
+	
+
+
+}
+
+/*****************************************/
+/*                Menubar                */
+/*****************************************/
+
+.header {
+	background-color: #359eee;
+	height: 100px;
+}
+
+
+/*****************************************/
+/*             Temporary css             */
+/*****************************************/
+
+
+
 .sidebar{
 	height: 400px;
 	background-color: red;
@@ -10,6 +54,10 @@
 	height: 200px;
 	background-color: yellow;
 }
+
+/*****************************************/
+/*      Formating fields and images      */
+/*****************************************/
 
 img {
 	max-width: 100%;
