@@ -28,6 +28,8 @@ Template Name: About
 	</div>
 
 	<div class="row">
+		<div class="grid_12">
+		<hr>
 					<!-- Partner info page begins -->
 		<?php for($i=1; $i<=5; $i++){?>
 			<div class="row">
@@ -42,6 +44,7 @@ Template Name: About
 			</div>
 			<hr>
 		<?php };?><!-- Ends for-loop --> 
+		</div>
 	</div>
 
 
