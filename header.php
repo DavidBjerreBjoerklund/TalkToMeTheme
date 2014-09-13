@@ -40,6 +40,7 @@
 	<div class="row-max header show-screen">
 
 		<nav class="grid_9 offset_2">
+			<!-- Logo image is inserted here to ensure logo is placed relative to menu -->
 			<div class="site-logo">
 				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="">
 			</div>
@@ -51,7 +52,12 @@
 	</div>
 	
 	<div class="row hide-screen txt-center">
-		<div class="grid_12">logo</div>
+		<div class="grid_12">
+			<div class="site-logo-mobile">
+
+				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo_optimized.svg" alt="">
+			</div>
+		</div>
 	</div>
 
 	<div class="row-max header hide-screen">
