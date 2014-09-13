@@ -38,8 +38,14 @@
 
 
 	<div class="row-max header show-screen">
-		<div class="grid_2 site-logo">logo</div>
-		<nav class="grid_9"><?php wp_nav_menu(); ?></nav>
+
+		<nav class="grid_9 offset_2">
+			<div class="site-logo">
+				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="">
+			</div>
+		<?php wp_nav_menu(); ?>
+
+		</nav>
 		<div class="grid_1">social media</div>
 		<div class="clear"></div>
 	</div>
