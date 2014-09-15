@@ -65,7 +65,7 @@ h2 {
 
 	.site-logo img{
 		position: absolute;
-		right: 70px;
+		right: 90px;
 		top: -30px;
 		width: 150px;
 	}
@@ -90,7 +90,7 @@ h2 {
 		margin: 0; /*Correction of ul, ol {margin: 26px 0 36px 0;} in base.css from amazium */
 		text-align: center;
 		font-size: 0; /*Removes space inserted by inline-block*/
-	}
+		}
 
 	.menu-item{
 		display: inline-block;
@@ -116,6 +116,10 @@ h2 {
 	.menu-item a:hover{
 		background-color: #104f30;
 	}
+
+/*	.menu-primary-container{
+		margin-left: 30px;
+	}*/
 
 	/*****************************************/
 	/*           Social media bar            */
