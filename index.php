@@ -24,7 +24,7 @@
 
 							<h2> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h2>
 
-							<p><?php the_content(); ?></p>
+							<p><?php the_excerpt(); ?></p>
 							<hr>
 						</section>
 					<?php endwhile; ?>
