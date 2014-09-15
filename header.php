@@ -39,7 +39,7 @@
 
 	<div class="row-max header show-screen">
 
-		<nav class="grid_9 offset_2">
+		<nav class="grid_8 offset_2">
 			<!-- Logo image is inserted here to ensure logo is placed relative to menu -->
 			<div class="site-logo">
 				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="">
@@ -47,14 +47,18 @@
 		<?php wp_nav_menu(); ?>
 
 		</nav>
-		<div class="grid_1">social media</div>
+		<div class="grid_2 social-header txt-right">
+			<img src="<?php echo(get_template_directory_uri()) ?>/img/facebook.png" 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/twitter.png"	 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/instagram.png" 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/google+.gif"  	alt="" ></div>
 		<div class="clear"></div>
 	</div>
 	
 	<div class="row hide-screen txt-center">
 		<div class="grid_12">
 			<div class="site-logo-mobile">
-				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.svg" alt="Talk To Me logo" onerror="this.src=<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif">
+				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="Talk To Me logo" onerror="this.src=<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif">
 			</div>
 		</div>
 	</div>
@@ -65,5 +69,10 @@
 	</div>
 
 	<div class="row hide-screen txt-right">
-		<div class="grid_12">social media</div>
+		<div class="grid_12 txt-center social-header-mobile">
+			<img src="<?php echo(get_template_directory_uri()) ?>/img/facebook.png" 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/twitter.png"	 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/instagram.png" 	alt=""
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/google+.gif"  	alt="" >
+		</div>
 	</div>

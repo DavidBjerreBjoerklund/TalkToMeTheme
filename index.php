@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row">
-	<article class="grid_12">
+	<article class="grid_12 no-margin-top">
 		<?php dynamic_sidebar('frontpage_banner'); ?>
 	</article>   
 </div>
