@@ -44,14 +44,16 @@
 			<div class="site-logo">
 				<img src="<?php echo(get_template_directory_uri()) ?>/img/TalkToMeLogo.gif" alt="">
 			</div>
-		<?php wp_nav_menu(); ?>
+			<?php wp_nav_menu(); ?>
 
 		</nav>
 		<div class="grid_2 social-header txt-right">
 			<img src="<?php echo(get_template_directory_uri()) ?>/img/facebook.png" 	alt=""
 			><img src="<?php echo(get_template_directory_uri()) ?>/img/twitter.png"	 	alt=""
 			><img src="<?php echo(get_template_directory_uri()) ?>/img/instagram.png" 	alt=""
-			><img src="<?php echo(get_template_directory_uri()) ?>/img/google+.gif"  	alt="" ></div>
+			><img src="<?php echo(get_template_directory_uri()) ?>/img/google+.gif"  	alt="" >
+			<!-- Thank to  Mohammed Alyousfi for the Beautifull icons -->
+		</div>
 		<div class="clear"></div>
 	</div>
 	

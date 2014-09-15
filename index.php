@@ -16,7 +16,7 @@
 						<hr>
 					</div>
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-						<section class="grid_4">
+						<section class="grid_4 post-excerpts-front">
 							<?php if ( has_post_thumbnail() ) {
 								the_post_thumbnail();
 							} ?>
