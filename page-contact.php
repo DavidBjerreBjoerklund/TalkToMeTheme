@@ -10,11 +10,10 @@ Template Name: Contact
 	<div class="row">
 		<div class="grid_12">
 			<!-- Contact page begins -->
-			<div class="row"><div class="grid_12"><h1> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1></div></div>
-			<div class="row">
+			<div class="row"><div class="grid_12"><h1 class="no-margin-top"> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1></div></div>
+			<div class="row contact-section">
 				<section class="grid_8">
 					<p><?php the_content(); ?></p>
-					<hr>
 				</section>
 				<div class="grid_4">
 					<?php 
@@ -25,12 +24,15 @@ Template Name: Contact
 						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 					<?php endif; ?>
 				</div>
+				<div class="clear"></div>
 			</div>	
-
+			
+			<div class="row presseinfo-section">
 				<!-- Press info page begins -->
 				<section class ="grid_12">
 					<?php the_field('presseinfo'); ?>
 				</section>
+			</div>
 		</div>
 
 	</div>

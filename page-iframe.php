@@ -16,11 +16,7 @@ Template Name: Page iframe
 				<img class="banner_img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 			<?php endif; ?>	
-
-
-			<h1> <a href="<?php echo(get_permalink()); ?>"> <?php the_title(); ?></a></h1>
-
-			<p><?php the_content(); ?></p>
+			<!-- <p><?php the_content(); ?></p> -->
 		</section>
 	</div>
 
